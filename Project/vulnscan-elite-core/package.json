@@ -1,0 +1,52 @@
+{
+  "name": "vulnscan-elite-core",
+  "version": "0.0.1",
+  "description": "Vulnerability Scanner Core",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "npx nodemon ./src/index.ts",
+    "start": "npm run build & node ./build/index.js",
+    "clean": "npx rimraf build",
+    "build": "npm run clean && npx tsc",
+    "test": "npx run build && jasmine",
+    "format": "npx prettier --write 'src/**/*.{ts,js}' ",
+    "lint": "npx eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/init-geeks/vulnscan-elite-core.git"
+  },
+  "author": [
+    "Eslam Muhammed  <eslam20-00112@student.eelu.edu.eg>",
+    "Abdelrahman Ali <abdelrahman20-01470@student.eelu.edu.eg>",
+    "Walaa Ahmed <walaa20-01045@student.eelu.edu.eg>",
+    "Nourhan Muhammed <nourhan20-01923@student.eelu.edu.eg>",
+    "Alaa Elsayed <alaa20-01772@student.eelu.edu.eg>",
+    "Walaa Mostafa <walaa20-02005@student.eelu.edu.eg>",
+    "Muhammed Yasser <mohamed20-01886@student.eelu.edu.eg>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.0",
+    "@types/node": "^20.8.3",
+    "@types/xml2json": "^0.11.6",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jasmine": "^5.1.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.3.8",
+    "xml2json": "^0.12.0",
+    "zaproxy": "^2.0.0-rc.4"
+  }
+}

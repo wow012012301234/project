@@ -1,0 +1,40 @@
+.scanns-header {
+    background: var(--color-footer);
+    padding: 20px;
+}
+
+.scan-table {
+    font-size: 16px;
+}
+
+.font-large {
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    line-height: 25px;
+}
+
+.icons {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.slide-name {
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    /* padding-right: 5px; */
+    padding-inline: 5px;
+
+}
+
+.scan-check-box {
+    display: inline-block;
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+    border: lightgray;
+    background-color: #eee;
+}

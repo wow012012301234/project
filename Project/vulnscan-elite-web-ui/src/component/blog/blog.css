@@ -1,0 +1,13 @@
+span{
+    font-size: 18px;
+    font-weight:400;
+    margin-right: 5px;
+
+}
+p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.bgg-color{
+    background: var(--color-footer);
+}

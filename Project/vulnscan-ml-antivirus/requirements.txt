@@ -1,0 +1,8 @@
+pefile
+numpy
+pickle-mixin
+joblib
+scikit-learn
+Flask
+Flask-JSONRPC
+flask-cors

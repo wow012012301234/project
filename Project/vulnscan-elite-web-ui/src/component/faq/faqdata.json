@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "What is a vulnerability scanner?",
+    "answer": "A vulnerability scanner is a tool that helps identify security vulnerabilities in a system or network. It scans the system for known vulnerabilities and provides a report on potential security risks."
+  },
+  {
+    "id": 2,
+    "question": "Why is vulnerability scanning important?",
+    "answer": "Vulnerability scanning is important because it helps organizations identify and remediate security weaknesses before they can be exploited by attackers. It allows for proactive security measures to be taken to protect sensitive data and prevent breaches."
+  },
+  {
+    "id": 3,
+    "question": "How does a vulnerability scanner work?",
+    "answer": "A vulnerability scanner works by scanning a network or system for known vulnerabilities, misconfigurations, and weaknesses. It uses a database of known vulnerabilities and checks the system against this database. It can also perform tests to identify potential vulnerabilities."
+  },
+  
+  {
+    "id": 4,
+    "question": "How does a vulnerability scanner work?",
+    "answer": "A vulnerability scanner works by scanning a network or system for known vulnerabilities, misconfigurations, and weaknesses. It uses a database of known vulnerabilities and checks the system against this database. It can also perform tests to identify potential vulnerabilities."
+  }
+]
+
+
+
